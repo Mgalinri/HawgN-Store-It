@@ -7,12 +7,12 @@ WAMPSERVER or XAMPSERVER
 The project was designed for the Web Applications class, and has not been launched yet.
 
 ## Setup
-!important
-Files should be saved in Wampserver www folder, under folder project_webpage.
-The Branch master contains the node_modules, all the files should be downloaded and put in a folder with the same name.
-All the files should go inside this folder.
-The folders for img, css and js should be kept with those names when the project is cloned.
-The rest of the files from the other folders, should be extracted from them and placed in the project_webpage directory.
+!important  
+Files should be saved in Wampserver www folder, under folder project_webpage.  
+The Branch master contains the node_modules, all the files should be downloaded and put in a folder with the same name.  
+All the files should go inside this folder.  
+The folders for img, css and js should be kept with those names when the project is cloned.  
+The rest of the files from the other folders, should be extracted from them and placed in the project_webpage directory.  
 
 ## Front-end Compiling
 The project must be open on visual studios and a SASS/SCSS compiler must be downloaded in order to compile the SCSS files.
