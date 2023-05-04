@@ -1,0 +1,148 @@
+.checked{
+   color: green;
+}
+:root{
+    --text-color: #000000;
+    --yellow: #ffd23f;
+    --red: #c41e3a;
+ 
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size:3rem;
+    
+    color: #000000;
+}
+p{
+    padding-top: -80px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+
+}
+
+body{
+    background-color: var(--yellow);
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    width: 100%;
+    height: 100%;
+    
+}
+.body_container{
+    margin-top: 30px;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+ 
+}
+.grid{
+   gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+  
+}
+.main-text{
+    font-size: 90px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.comment_container{
+    width: 600px;
+    border: black solid;
+    border-radius: 10px;
+    box-shadow: 8px 7px rgba(180,180,180,0.5);
+    padding: 20px;
+    margin: auto;   
+    background-color: white;  
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment_container p{
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+.name{
+    width: 200px;
+  
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.unit_{
+   padding-left: 42px;
+}
+.stars_container{
+    margin-bottom: 70px;
+    
+}
+.menu_container{
+   
+    height: 100px;
+
+}
+.text_comment{
+    
+   margin-top: 40px;
+}
+input, textarea{
+    border: 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+  
+}
+input, textarea:focus{
+  outline:none;
+}
+.review-button{
+    border-radius:  4px;
+    border: none;
+    box-shadow: 2px 4px#000000;
+    width: 200px;
+    background-color: white;
+    color:  black ;
+
+}
+.review-button:active{
+    box-shadow: inset 0px 0px 2px grey;
+}
+.form{
+
+    margin-bottom: 30px;
+}
+.add-c{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+td{
+  color: #000000;
+}
+.text-comment{
+    padding-top: -20px;
+    padding-left: 30px;
+}
