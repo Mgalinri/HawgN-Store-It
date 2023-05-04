@@ -1,4 +1,4 @@
-# HawgN-Store-It
+#HawgN-Store-It*
 #Requirements
 As it is a local page it requires to have the database files, it also works better on Chrome.
 WAMPSERVER or XAMPSERVER
