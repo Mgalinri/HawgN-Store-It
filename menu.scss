@@ -1,0 +1,60 @@
+:root{
+    --text-color: #000000;
+    --yellow: #ffd23f;
+    --red: #c41e3a;
+   
+ 
+}
+
+
+.menu {
+    width: 60px;
+  
+    height: 60px;
+    
+ 
+    margin-left: auto;
+    margin-right: 30px;
+    z-index: 99;
+  }
+.menu_{
+    width: inherit;
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+   
+   margin-right:30px;
+}
+.menu_bar{
+    display: flex;
+    background-color:var(--yellow) ;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+   position: fixed;
+   z-index:1;
+    
+
+}
+.menu_bar_text{
+  justify-self: flex-start;
+padding-left: 30px;
+font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+   
+   
+    color: #000000;
+}
+
+@keyframes rotate{
+    0% {transform: rotate(10deg);}
+    25%  {transform: rotate(30deg);}
+  50%  {transform: rotate(60deg);}
+  100% {transform: rotate(90deg);}
+    
+}
+.menu:hover{
+    
+    animation: rotate 0.5s;
+    
+}
