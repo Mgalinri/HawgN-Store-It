@@ -7,7 +7,6 @@ WAMPSERVER or XAMPSERVER
 The project was designed for the Web Applications class, and has not been launched yet.
 
 ## Setup
-!important  
 Files should be saved in Wampserver www folder, under folder project_webpage.    
 The Branch master contains the node_modules, all the files should be downloaded and put in a folder with the same name.  
 All the files should go inside this folder.  
